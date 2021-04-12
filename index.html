@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+<html>
+    <head>
+        <title>Conjugación Quechua</title>
+        
+        
+    </head>
+    <body>
+    <h3>Conjugador de verbos Español a Quechua</h3>
+    <br />
+    <p>En esta pagina veremos como conjugar los verbos en quechua. Todos los verbos en infinitivo terminan con "y". por ejemplo: Tusuy(bailar), mikhuy(comer), llojsiy(salir). Escribe un verbo en infinitivo y te lo conjugaremos al tiempo y persona que elijas </p>
+    <div class="form">
+    <input  id= "verbo" placeholder= "escriba aqui el verbo en infinitivo">
+        <br />
+        
+        <select name= "Tiempos" id="tiempo">
+            <option>Indique el tiempo verbal</option>
+            <option value="">Presente</option>
+            <option  value="rqa" >Preterito perfecto</option>
+            <option value="sqa">Preterito indefinido</option>
+            <option value="j ka">Preterito pluscuamperfecto</option>
+            <option value="nqa">Futuro</option>
+        </select>
+    
+        <br />
+        <select name = "Persona" id="pronombre">
+            <option>Indique el pronombre personal</option>
+            <option id="Noqa" value="ni">(1° singular)Yo</option>
+            <option id="Qan"     value="nki">(2° singular)Tú </option>
+            <option id="Pay"     value="n">(3° singular)Él</option>
+            <option id="Noqanchej"     value="nchej">(1° plural incluyente) Nosotros</option>
+            <option id="Noqayku"    value="yku">(1° plural excluyente) Nosotros</option>
+            <option id="Qankuna" value="nkichej">(2° plural) Ustedes</option>
+            <option id="Paykuna"    value="nku">(3° plural) Ellos</option>
+        </select>
+        <br />
+        <button onclick= "cong() " id = "11 "> pulse aqui</button>
+        <br>
+    
+    <div class="verboconjugado">
+        <span id="verboconjugado"></span>   
+        </div>
+    </div>
+        <script src="main.js"></script>
+    </body>
+</html>

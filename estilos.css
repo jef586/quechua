@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    background: rgb(204, 108, 108);
+}
+
+h3{
+    text-align: center;
+    margin-top: 50px;
+}
+ 
+p{
+    margin: 50px;
+}
+
+.form{
+    margin: 50px;
+    text-align: center;
+    
+}
+
+input{
+    height: 30px;
+    width: 300px;
+}
+select{
+    height: 30px;
+    width: 300px;
+}
+
+button{
+    height: 30px;
+    width: 150px;
+    border-radius: 4px;
+}
+
+.verboconjugado{
+    height: 30px;
+    width: 300px;
+    text-align: center;
+}
